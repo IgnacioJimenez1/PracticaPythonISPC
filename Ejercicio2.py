@@ -1,9 +1,12 @@
-# Solicitar al usuario dos letras
-letra1 = input("Ingrese la primera letra: ")
-letra2 = input("Ingrese la segunda letra: ")
+# //* Hacer un programa que permita decidir si dos palabras son iguales o
+# diferentes. Mostrar mensaje por pantalla.*//
 
-# Verificar si las letras son iguales
-if letra1 == letra2:
-    print("Las letras son iguales")
+palabra1 = input("Ingrese la primera palabra: ")
+palabra2 = input("Ingrese la segunda palabra: ")
+
+#verificar si son iguales
+
+if palabra1 == palabra2:
+    print("Las palabras ingresadas son iguales ")
 else:
-    print("Las letras son diferentes")
+    print("Las palabaras no son iguales lo siento")

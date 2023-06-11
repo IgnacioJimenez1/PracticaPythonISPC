@@ -1,12 +1,13 @@
-# //* Hacer un programa que permita decidir si dos palabras son iguales o
-# diferentes. Mostrar mensaje por pantalla.*//
+#Realizar un programa que permita ingresar “f” o “m” y determinar si vota en mesa femenina o masculina.
 
-palabra1 = input("Ingrese la primera palabra: ")
-palabra2 = input("Ingrese la segunda palabra: ")
+# Pedir ingreso de género
 
-#verificar si son iguales
+genero = input("Ingrese su género (f/m): ")
 
-if palabra1 == palabra2:
-    print("Las palabras ingresadas son iguales ")
+
+if genero.lower() == "f":
+    print("Usted vota en la mesa femenina")
+elif genero.lower() == "m":
+    print("Usted vota en la mesa masculina")
 else:
-    print("Las palabaras no son iguales lo siento")
+    print("El género ingresado no es válido")

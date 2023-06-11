@@ -1,13 +1,9 @@
-#Realizar un programa que permita ingresar “f” o “m” y determinar si vota en mesa femenina o masculina.
+# Solicitar al usuario dos letras
+letra1 = input("Ingrese la primera letra: ")
+letra2 = input("Ingrese la segunda letra: ")
 
-# Pedir ingreso de género
-
-genero = input("Ingrese su género (f/m): ")
-
-
-if genero.lower() == "f":
-    print("Usted vota en la mesa femenina")
-elif genero.lower() == "m":
-    print("Usted vota en la mesa masculina")
+# Verificar si las letras son iguales
+if letra1 == letra2:
+    print("Las letras son iguales")
 else:
-    print("El género ingresado no es válido")
+    print("Las letras son diferentes")
